@@ -1,300 +1,250 @@
 <!DOCTYPE HTML>
-<!--
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html lang="zh-Hant-TW">
 
 <head>
-    <!-- Google Tag Manager -->
-    <script>
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-KNFPB22');
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-CHEXLBZV66"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
 
-    </script>
-    <!-- End Google Tag Manager -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-76542419-4"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+		gtag('config', 'G-CHEXLBZV66');
 
-        gtag('config', 'UA-76542419-4');
+	</script>
+	
+	<title>嘟比の旅行日誌</title>
+	<link rel="Shortcut Icon" type="image/x-icon" href="images/p.png" />
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
-    </script>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="description" content="歡迎來到夢想之都，我是嘟比呦💫 嘟比是一隻最喜歡奶茶的小精靈，期待與你們相見的一天">
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
 
-    <title>嘟比の旅行日誌</title>
-    <link rel="Shortcut Icon" type="image/x-icon" href="images/p.png" />
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<!-- og -->
+	<meta property="og:title" content="嘟比の旅行日誌 | Vtuber">
+	<meta property="og:description" content="歡迎來到夢想之都，我是嘟比呦💫 嘟比是一隻最喜歡奶茶的小精靈，期待與你們相見的一天">
+	<meta property="og:image:width" content="1280">
+	<meta property="og:image:height" content="720">
+	<meta property="og:image" content="https://www.dreamcity.studio/Duby/images/bg.jpg">
 
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <meta name="description" content="歡迎來到夢想之都，我是嘟比呦💫 嘟比是一隻最喜歡奶茶的小精靈，期待與你們相見的一天">
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript>
-        <link rel="stylesheet" href="assets/css/noscript.css" />
-    </noscript>
-
-    <!-- og -->
-    <meta property="og:title" content="嘟比の旅行日誌 | Vtuber">
-    <meta property="og:description" content="歡迎來到夢想之都，我是嘟比呦💫 嘟比是一隻最喜歡奶茶的小精靈，期待與你們相見的一天">
-    <meta property="og:image:width" content="1280">
-    <meta property="og:image:height" content="720">
-    <meta property="og:image" content="https://www.dreamcity.studio/Duby/images/bg.jpg">
-
-    <!-- Facebook Pixel Code -->
-    <script>
-        ! function(f, b, e, v, n, t, s) {
-            if (f.fbq) return;
-            n = f.fbq = function() {
-                n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n;
-            n.push = n;
-            n.loaded = !0;
-            n.version = '2.0';
-            n.queue = [];
-            t = b.createElement(e);
-            t.async = !0;
-            t.src = v;
-            s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '761687431383358');
-        fbq('track', 'PageView');
-
-    </script>
-    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=761687431383358&ev=PageView&noscript=1" /></noscript>
-    <!-- End Facebook Pixel Code -->
 </head>
 
 <body class="landing is-preload">
 
-    <!-- Page Wrapper -->
-    <div id="page-wrapper">
+	<!-- Page Wrapper -->
+	<div id="page-wrapper">
 
-        <!-- Header -->
-        <header id="header" class="alt">
-            <h1><a href="#">嘟比の旅行日誌</a></h1>
-            <nav id="nav">
-                <ul>
-                    <li class="special">
-                        <a href="#menu" class="menuToggle"><span>MENU</span></a>
-                        <div id="menu">
-                            <ul>
-                                <li><a href="">首頁</a></li>
-                                <li><a href="about">嘟比小故事</a></li>
-                                <!--                                <li><a href="#">(頁面開發中...)</a></li>-->
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+		<!-- Header -->
+		<header id="header" class="alt">
+			<h1><a href="#">嘟比の旅行日誌</a></h1>
+			<nav id="nav">
+				<ul>
+					<li class="special">
+						<a href="#menu" class="menuToggle"><span>MENU</span></a>
+						<div id="menu">
+							<ul>
+								<li><a href="">首頁</a></li>
+								<li><a href="about">嘟比小故事</a></li>
+								<!--                                <li><a href="#">(頁面開發中...)</a></li>-->
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</header>
 
-        <!-- Banner -->
-        <section id="banner">
-            <div class="inner">
-                <h2>嘟比の旅行日誌</h2>
-                <p>
-                    嗨Wee~ 歡迎來到夢想之都. <br>
-                    我是嘟比yo (●'◡'●)<br>
+		<!-- Banner -->
+		<section id="banner">
+			<div class="inner">
+				<h2>嘟比の旅行日誌</h2>
+				<p>
+					嗨Wee~ 歡迎來到夢想之都. <br>
+					我是嘟比yo (●'◡'●)<br>
 
-                </p>
+				</p>
 
-                <ul class="actions special">
-                    <li><a href="#one" class="button primary scrolly">深入認識嘟比</a></li>
-                </ul>
-            </div>
-            <a href="#one" class="more scrolly">了解更多</a>
-        </section>
+				<ul class="actions special">
+					<li><a href="#one" class="button primary scrolly">深入認識嘟比</a></li>
+				</ul>
+			</div>
+			<a href="#one" class="more scrolly">了解更多</a>
+		</section>
 
-        <!-- One -->
-        <section id="one" class="wrapper style1 special">
-            <div class="inner">
-                <header class="major">
-                    <h2>趕快加入旅行團，成為我的旅伴吧</h2>
-                    <p>曾經穿越到各種有趣的地方，現在來到了你們的時空裡，為了跟夢想之都的小夥伴和嘟比的小灰塵們一起保持快樂。<br>
-                        嘟比我帶著最美好的你們，踏上了歡樂的穿越旅程! <br>
+		<!-- One -->
+		<section id="one" class="wrapper style1 special">
+			<div class="inner">
+				<header class="major">
+					<h2>趕快加入旅行團，成為我的旅伴吧</h2>
+					<p>曾經穿越到各種有趣的地方，現在來到了你們的時空裡，為了跟夢想之都的小夥伴和嘟比的小灰塵們一起保持快樂。<br>
+						嘟比我帶著最美好的你們，踏上了歡樂的穿越旅程! <br>
 
-                    </p>
-
-
-
-                </header>
-                <ul class="icons major">
-
-                    <li><a href="https://www.youtube.com/channel/UCxAxBPUKQZzDGeI9xNSex7g" style="border-bottom: 0;" class="scrolly"><span class="icon fab fa-youtube major style0"><span class="label">Ipsum</span></span></a></li>
-                    <li><a href="https://www.facebook.com/Duby.Vtuber" style="border-bottom: 0;" class="scrolly"><span class="icon fab fa-facebook major style0"><span class="label">Lorem</span></span></a></li>
-                    <li><a href="https://twitter.com/Duby_1125" style="border-bottom: 0;" class="scrolly"><span class="icon fab solid fa-twitter major style0"><span class="label">Dolor</span></span></a></li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- Two -->
-        <section id="two" class="wrapper alt style2">
-            <section id="c" class="spotlight">
-                <div onclick="location.href='https://www.youtube.com/watch?v=Ag33IOtzx0U';" class="image" style="height: 100%">
-                    <img src="https://i.ytimg.com/vi_webp/Ag33IOtzx0U/maxresdefault.webp">
-                </div>
-
-
-                <div class="content">
-                    <h2>嘟比初配信</h2>
-                    <p>嗨世界 ★今天嘟比初配信YO!! <br>
-                        記得點下喜歡❤ 讓嘟比知道你報名啦~<br>
-                        開啟直播提醒才能第一時間加入YO!!
-
-                    </p>
-                    <div class="col-12">
-                        <ul class="actions">
-                            <li><a href="https://www.youtube.com/watch?v=Ag33IOtzx0U" class="button primary">Youtube</a></li>
-                        </ul>
-                    </div>
-
-                </div>
-
-            </section>
-
-            <section id="b" class="spotlight">
-                <div onclick="location.href='https://www.youtube.com/watch?v=UGpVEVp8PuM';" class="image" style="height: 100%">
-                    <img src="https://i.ytimg.com/vi_webp/UGpVEVp8PuM/maxresdefault.webp">
-                </div>
+					</p>
 
 
 
-                <div class="content">
-                    <h2>阿嘟英文<br>挑戰15分鐘完勝學測英文考題</h2>
-                    <p>嘟比是英文小天才啦!</p>
-                    <div class="col-12">
-                        <ul class="actions">
-                            <li><a href="https://www.youtube.com/watch?v=UGpVEVp8PuM" class="button primary">Youtube</a></li>
-                        </ul>
-                    </div>
+				</header>
+				<ul class="icons major">
 
-                </div>
+					<li><a href="https://www.youtube.com/channel/UCxAxBPUKQZzDGeI9xNSex7g" style="border-bottom: 0;" class="scrolly"><span class="icon fab fa-youtube major style0"><span class="label">Ipsum</span></span></a></li>
+					<li><a href="https://www.facebook.com/Duby.Vtuber" style="border-bottom: 0;" class="scrolly"><span class="icon fab fa-facebook major style0"><span class="label">Lorem</span></span></a></li>
+					<li><a href="https://twitter.com/Duby_1125" style="border-bottom: 0;" class="scrolly"><span class="icon fab solid fa-twitter major style0"><span class="label">Dolor</span></span></a></li>
+				</ul>
+			</div>
+		</section>
 
-            </section>
-
-           
-            <section id="a" class="spotlight">
-                <div onclick="location.href='https://www.youtube.com/watch?v=vO1zIXrFFEI';" class="image" style="height: 100%">
-                    <img src="https://i.ytimg.com/vi_webp/vO1zIXrFFEI/maxresdefault.webp">
-                </div>
+		<!-- Two -->
+		<section id="two" class="wrapper alt style2">
+			<section id="c" class="spotlight">
+				<div onclick="location.href='https://www.youtube.com/watch?v=Ag33IOtzx0U';" class="image" style="height: 100%">
+					<img src="https://i.ytimg.com/vi_webp/Ag33IOtzx0U/maxresdefault.webp">
+				</div>
 
 
-                <div class="content">
-                    <h2>嘟比旅行團守則</h2>
-                    <p>看完影片別忘了按下右方紅色訂閱按鈕，完成本次退房程序<br>
-                        小提醒 按下👍，您將獲得下一次旅行團優惠💫<br>
-                        只要遵守以上規則，您就能在參加嘟比旅遊團時，有著珍貴以及數不清的快樂⭐
-                    </p>
-                    <div class="col-12">
-                        <ul class="actions">
-                            <li><a href="https://www.youtube.com/watch?v=vO1zIXrFFEI" class="button primary">Youtube</a></li>
-                        </ul>
-                    </div>
+				<div class="content">
+					<h2>嘟比初配信</h2>
+					<p>嗨世界 ★今天嘟比初配信YO!! <br>
+						記得點下喜歡❤ 讓嘟比知道你報名啦~<br>
+						開啟直播提醒才能第一時間加入YO!!
 
-                </div>
+					</p>
+					<div class="col-12">
+						<ul class="actions">
+							<li><a href="https://www.youtube.com/watch?v=Ag33IOtzx0U" class="button primary">Youtube</a></li>
+						</ul>
+					</div>
 
-            </section>
-            
+				</div>
 
+			</section>
+
+			<section id="b" class="spotlight">
+				<div onclick="location.href='https://www.youtube.com/watch?v=UGpVEVp8PuM';" class="image" style="height: 100%">
+					<img src="https://i.ytimg.com/vi_webp/UGpVEVp8PuM/maxresdefault.webp">
+				</div>
+
+
+
+				<div class="content">
+					<h2>阿嘟英文<br>挑戰15分鐘完勝學測英文考題</h2>
+					<p>嘟比是英文小天才啦!</p>
+					<div class="col-12">
+						<ul class="actions">
+							<li><a href="https://www.youtube.com/watch?v=UGpVEVp8PuM" class="button primary">Youtube</a></li>
+						</ul>
+					</div>
+
+				</div>
+
+			</section>
+
+
+			<section id="a" class="spotlight">
+				<div onclick="location.href='https://www.youtube.com/watch?v=vO1zIXrFFEI';" class="image" style="height: 100%">
+					<img src="https://i.ytimg.com/vi_webp/vO1zIXrFFEI/maxresdefault.webp">
+				</div>
+
+
+				<div class="content">
+					<h2>嘟比旅行團守則</h2>
+					<p>看完影片別忘了按下右方紅色訂閱按鈕，完成本次退房程序<br>
+						小提醒 按下👍，您將獲得下一次旅行團優惠💫<br>
+						只要遵守以上規則，您就能在參加嘟比旅遊團時，有著珍貴以及數不清的快樂⭐
+					</p>
+					<div class="col-12">
+						<ul class="actions">
+							<li><a href="https://www.youtube.com/watch?v=vO1zIXrFFEI" class="button primary">Youtube</a></li>
+						</ul>
+					</div>
+
+				</div>
+
+			</section>
 
 
 
 
-        </section>
-
-        <!-- Three -->
-        <section id="three" class="wrapper style3 special">
-            <div class="inner">
-                <header class="major">
-                    <h2>嘟比 Duby 精華錦集</h2>
-                    <!--                    <p>嘟比是個完美主義精靈，在奇怪的地方堅持完美！</p>-->
-                </header>
-                <ul class="features">
-                    <li style="padding:2em 3em 2em 3em">
-                        <h3 style="margin-bottom: 0px;">初配信精華</h3>
-                        <p>這是一隻擅長算數的精靈!!!</p>
-                        <div class='embed-container'><iframe src='https://www.youtube.com/embed/Wuun5fWUBlY' frameborder='0' allowfullscreen></iframe></div>
-                    </li>
-                    <li style="padding:2em 3em 2em 3em">
-                        <h3 style="margin-bottom: 0px;">MINECRAFT</h3>
-                        <p>只播一集就完結? 嘟比被丟包到異世界啦!</p>
-                        <div class='embed-container'><iframe src='https://www.youtube.com/embed/ZO1wVobdGrc' frameborder='0' allowfullscreen></iframe></div>
-                    </li>
-
-                    <li style="padding:2em 3em 2em 3em">
-                        <h3 style="margin-bottom: 0px;">cooking simulator</h3>
-                        <p>新春年菜地獄廚房開張啦!</p>
-                        <div class='embed-container'><iframe src='https://www.youtube.com/embed/Yg6g-p_F8PY' frameborder='0' allowfullscreen></iframe></div>
-                    </li>
-                    <li style="padding:2em 3em 2em 3em">
-                        <h3 style="margin-bottom: 0px;">虎比拜年辣</h3>
-                        <p>2022年每天都要快樂奇異呦</p>
-                        <div class='embed-container'><iframe src='https://www.youtube.com/embed/F8QfDWI_26E' frameborder='0' allowfullscreen></iframe></div>
-                    </li>
 
 
+		</section>
 
-                </ul>
-            </div>
-        </section>
+		<!-- Three -->
+		<section id="three" class="wrapper style3 special">
+			<div class="inner">
+				<header class="major">
+					<h2>嘟比 Duby 精華錦集</h2>
+					<!--                    <p>嘟比是個完美主義精靈，在奇怪的地方堅持完美！</p>-->
+				</header>
+				<ul class="features">
+					<li style="padding:2em 3em 2em 3em">
+						<h3 style="margin-bottom: 0px;">初配信精華</h3>
+						<p>這是一隻擅長算數的精靈!!!</p>
+						<div class='embed-container'><iframe src='https://www.youtube.com/embed/Wuun5fWUBlY' frameborder='0' allowfullscreen></iframe></div>
+					</li>
+					<li style="padding:2em 3em 2em 3em">
+						<h3 style="margin-bottom: 0px;">MINECRAFT</h3>
+						<p>只播一集就完結? 嘟比被丟包到異世界啦!</p>
+						<div class='embed-container'><iframe src='https://www.youtube.com/embed/ZO1wVobdGrc' frameborder='0' allowfullscreen></iframe></div>
+					</li>
 
-        <!-- CTA -->
-        <section id="cta" class="wrapper style4">
-            <div class="inner">
-                <header>
-                    <h2>我的團隊－夢想之都工作室</h2>
-                    <p>　　夢想之都工作室 Dreamcity，成立於2015年，深耕於Minecraft地圖製作，團員多來自臺灣、香港與澳門等地，為跨足兩岸三地的區域級地圖創作團隊。 </p>
-                </header>
-                <ul class="actions stacked">
-                    <li><a href="https://www.dreamcity.studio/" class="button fit primary">團隊官網</a></li>
-                    <li><a href="https://www.facebook.com/dreamcity26481414/" class="button fit">粉絲專頁</a></li>
-                </ul>
-            </div>
-        </section>
+					<li style="padding:2em 3em 2em 3em">
+						<h3 style="margin-bottom: 0px;">cooking simulator</h3>
+						<p>新春年菜地獄廚房開張啦!</p>
+						<div class='embed-container'><iframe src='https://www.youtube.com/embed/Yg6g-p_F8PY' frameborder='0' allowfullscreen></iframe></div>
+					</li>
+					<li style="padding:2em 3em 2em 3em">
+						<h3 style="margin-bottom: 0px;">虎比拜年辣</h3>
+						<p>2022年每天都要快樂奇異呦</p>
+						<div class='embed-container'><iframe src='https://www.youtube.com/embed/F8QfDWI_26E' frameborder='0' allowfullscreen></iframe></div>
+					</li>
 
-        <!-- Footer -->
-        <footer id="footer">
-            <ul class="icons">
-                <li><a href="https://www.youtube.com/channel/UCxAxBPUKQZzDGeI9xNSex7g" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
-                <li><a href="https://www.facebook.com/Duby.Vtuber" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-                <li><a href="https://go.dreamcity.studio/dc" class="icon brands fab fa-discord"><span class="label">Discord</span></a></li>
-                <li><a href="mailto:duby@dreamcity.studio" class="icon fa solid fa-envelope"><span class="label">Email</span></a></li>
-            </ul>
-        </footer>
 
-    </div>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+				</ul>
+			</div>
+		</section>
+
+		<!-- CTA -->
+		<section id="cta" class="wrapper style4">
+			<div class="inner">
+				<header>
+					<h2>我的團隊－夢想之都工作室</h2>
+					<p>　　夢想之都工作室 Dreamcity，成立於2015年，深耕於Minecraft地圖製作，團員多來自臺灣、香港與澳門等地，為跨足兩岸三地的區域級地圖創作團隊。 </p>
+				</header>
+				<ul class="actions stacked">
+					<li><a href="https://www.dreamcity.studio/" class="button fit primary">團隊官網</a></li>
+					<li><a href="https://www.facebook.com/dreamcity26481414/" class="button fit">粉絲專頁</a></li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<ul class="icons">
+				<li><a href="https://www.youtube.com/channel/UCxAxBPUKQZzDGeI9xNSex7g" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
+				<li><a href="https://www.facebook.com/Duby.Vtuber" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+				<li><a href="https://go.dreamcity.studio/dc" class="icon brands fab fa-discord"><span class="label">Discord</span></a></li>
+				<li><a href="mailto:duby@dreamcity.studio" class="icon fa solid fa-envelope"><span class="label">Email</span></a></li>
+			</ul>
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
 
 </body>
 
