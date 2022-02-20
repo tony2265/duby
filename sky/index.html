@@ -1,0 +1,108 @@
+<!DOCTYPE>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="body" id ="body">
+        <div class="modal" id="modal">
+            <div class="title title_1">表示する項目</div>
+            <div class="select_contents select_contents_1">
+                <div class="select select_star">
+                    <input type="checkbox" id="checkbox_star" name="checkbox_star" class="checkbox checkbox_star" checked>
+                    <label for="checkbox_star" class="text text_star">星</label>
+                </div>
+                <div class="select select_cloud">
+                    <input type="checkbox" id="checkbox_cloud" name="checkbox_cloud" class="checkbox checkbox_cloud" checked>
+                    <label for="checkbox_cloud" class="text text_cloud">雲</label>
+                </div>
+                <div class="select select_moon">
+                    <input type="checkbox" id="checkbox_moon" name="checkbox_moon" class="checkbox checkbox_moon" checked>
+                    <label for="checkbox_moon" class="text text_moon">月</label>
+                </div>
+                <div class="select select_balloon">
+                    <input type="checkbox" id="checkbox_balloon" name="checkbox_balloon" class="checkbox checkbox_balloon" checked>
+                    <label for="checkbox_balloon" class="text text_balloon">風船</label>
+                </div>
+            </div>
+            <div class="select_contents select_contents_2">
+                <div class="select select_window_1">
+                    <input type="checkbox" id="checkbox_window_1" name="checkbox_window_1" class="checkbox checkbox_window_1">
+                    <label for="checkbox_window_1" class="text text_window_1">白い窓</label>
+                </div>
+                <div class="select select_window_2">
+                    <input type="checkbox" id="checkbox_window_2" name="checkbox_window_2" class="checkbox checkbox_window_2">
+                    <label for="checkbox_window_2" class="text text_window_2">紺色の窓</label>
+                </div>
+            </div>
+            <div class="title">空の色</div>
+            <div class="select select_sky">
+                <div class="radio_skys">
+                    <input class="radio_sky radio_sky_1" type="radio" name="radio_sky" id="sky_1">
+                    <label for="sky_1" class="text text_sky_1">夜</label>
+                </div>
+                <div class="radio_skys">
+                    <input class="radio_sky radio_sky_3" type="radio" name="radio_sky" id="sky_3">
+                    <label for="sky_3" class="text text_sky_3">朝</label>
+                </div>
+                <div class="radio_skys">
+                    <input class="radio_sky radio_sky_4" type="radio" name="radio_sky" id="sky_4" checked>
+                    <label for="sky_4" class="text text_sky_4">自動</label>
+                </div>
+            </div>
+            <button type="button" id="button" class="button close">閉じる</button>
+        </div>
+        <div class="contents" id="contents">
+            <img src="image/window_dark.png" id="window_2" class="window window_dark">
+            <img src="image/window_white.png" id="window_1" class="window window_white">
+            <img src="image/moon.png" id="moon" class="moon">
+            <div class="balloon" id="balloon">
+                <img src="image/balloon_1.png" class="balloon_1">
+                <img src="image/balloon_2.png" class="balloon_2">
+                <img src="image/balloon_3.png" class="balloon_3">
+            </div>
+            <div class="cloud" id="cloud">
+                <div class="cloud_1">
+                    <img src="image/cloud_l.png" class="cloud_l cloud_l_1">
+                    <img src="image/cloud_m.png" class="cloud_m cloud_m_1">
+                    <img src="image/cloud_s.png" class="cloud_s cloud_s_1">
+                    <img src="image/cloud_s.png" class="cloud_s cloud_s_2">
+                </div>
+                <div class="cloud_2">
+                    <img src="image/cloud_l.png" class="cloud_l cloud_l_2">
+                    <img src="image/cloud_m.png" class="cloud_m cloud_m_2">
+                    <img src="image/cloud_s.png" class="cloud_s cloud_s_3">
+                    <img src="image/cloud_s.png" class="cloud_s cloud_s_4">
+                </div>
+                <div class="cloud_3">
+                    <img src="image/cloud_l.png" class="cloud_l cloud_l_3">
+                    <img src="image/cloud_m.png" class="cloud_m cloud_m_3">
+                    <img src="image/cloud_s.png" class="cloud_s cloud_s_5">
+                    <img src="image/cloud_s.png" class="cloud_s cloud_s_6">
+                </div>
+                <div class="cloud_4">
+                    <img src="image/cloud_l.png" class="cloud_l cloud_l_4">
+                    <img src="image/cloud_m.png" class="cloud_m cloud_m_4">
+                    <img src="image/cloud_s.png" class="cloud_s cloud_s_7">
+                    <img src="image/cloud_s.png" class="cloud_s cloud_s_8">
+                </div>
+                <div class="cloud_5">
+                    <img src="image/cloud_l.png" class="cloud_l cloud_l_5">
+                    <img src="image/cloud_m.png" class="cloud_m cloud_m_5">
+                    <img src="image/cloud_s.png" class="cloud_s cloud_s_9">
+                    <img src="image/cloud_s.png" class="cloud_s cloud_s_10">
+                </div>
+            </div>
+            <div class="star" id="star">
+                <img src="image/shooting_star.png"  class="shooting_star">
+                <img src="image/star_1.png" class="star_a">
+                <img src="image/star_2.png" class="star_b">
+                <img src="image/star_1.png" class="star_a star_a_2">
+                <img src="image/star_2.png" class="star_b star_b_2">
+                <img src="image/star_base.png" class="star_base">
+            </div>
+        </div>
+        <div class="base"></div>
+        <script src="main.js"></script>
+    </body>
+</html>

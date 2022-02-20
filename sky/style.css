@@ -1,0 +1,470 @@
+.body {
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    animation-name: sky;
+    animation-duration: 3600s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    background: linear-gradient(#485B9C, #475C9C, #5169AD, #526CB5, #5F80C9, #7395D4, #96B4E5, #A3B9E8, #B5BDE8, #BBC3EE, #BBC9F3, #BED3F0,#BDCFF3, #C2D6F1, #D6E5FC, #DAE9FD, #E4E7FD, #E0E9FE, #DEEBFE,
+        #E0E9FE,  #E4E7FD, #DAE9FD, #D6E5FC, #C2D6F1, #BDCFF3, #BED3F0, #BBC9F3, #BBC3EE, #B5BDE8, #A3B9E8, #96B4E5, #7395D4, #5F80C9, #5169AD, #475C9C,#485B9C);
+    background-size: 1000% 1000%;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+img {
+    top: 0;
+    left: 0;
+    position: absolute;
+    max-width: 1600px;
+    max-height: 900px;
+}
+
+.modal {
+    top: 250;
+    left: 480;
+    position: relative;
+    width: 585px;
+    height: 400px;
+    background: rgba(255,255,255,0.8);
+    border-radius: 30px;
+    box-shadow: 0 10px 25px 0 rgba(255,255,255,0.8);
+    z-index: 100;
+}
+
+.title {
+    padding-left: 20px;
+    font-size: 30px;
+    color: #4e587a;
+}
+
+.title_1 {
+    padding-top: 20px;
+}
+
+.select_contents {
+    padding: 5px 15px;
+    display: flex;
+}
+
+.select {
+    padding-left: 40px;
+}
+
+.select_sky {
+    padding: 5px 15px;
+    display: flex;
+}
+
+.radio_skys {
+    padding-left: 40px;
+}
+
+.button {
+    top: 20;
+    left: 240;
+    display: inline-block;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: #485B9C;
+    border: solid 2px #485B9C;
+    border-radius: 3px;
+    transition: .2s;
+    font-size: 20px;
+    position: relative;
+    background: none;
+  }
+
+.button:hover {
+    background: #485B9C;
+    color: white;
+}
+
+.select > label {
+    cursor: pointer;
+    padding-left: 40px;
+    position: relative;
+    font-size: 40px;
+    color: #4e587a;
+}
+
+.select > label::before,
+.select > label::after {
+    content: "";
+    display: block;
+    position: absolute;
+}
+
+.select > label::before {
+    background-color: #fff;
+    border-radius: 0%;
+    border: 1px solid #ddd;
+    width: 25px;
+    height: 25px;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 5px;
+}
+
+.select > label::after {
+    border-bottom: 2px solid #485B9C;
+    border-left: 2px solid #485B9C;
+    opacity: 0;
+    width: 12px;
+    height: 7px;
+    transform: rotate(-45deg);
+    top: 23px;
+    left: 12px;
+}
+
+.select > input:checked + label::after {
+    opacity: 1;
+}
+
+.select > input[type=checkbox] {
+    display: none;
+}
+
+.select_sky > .radio_skys > label {
+    cursor: pointer;
+    padding-left: 40px;
+    position: relative;
+    font-size: 40px;
+    color: #4e587a;
+}
+
+.select_sky > .radio_skys > label::before,
+.select_sky > .radio_skys > label::after {
+    content: "";
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+.select_sky > .radio_skys > label::before {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    left: 5px;
+}
+
+.select_sky > .radio_skys > label::after {
+    background-color: #485B9C;
+    border-radius: 50%;
+    opacity: 0;
+    width: 17px;
+    height: 17px;
+    left: 10px;
+}
+
+.select_sky > .radio_skys > input:checked + label::after {
+    opacity: 1;
+}
+
+.radio_sky {
+    position: absolute;
+    white-space: nowrap;
+    border: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+}
+
+.contents {
+    position: relative;
+    width: 1600px;
+    height: 900px;
+}
+
+.window {
+    top: -7;
+    left: -8;
+    z-index: 10;
+}
+
+.window_white {
+    display: none;
+}
+
+.window_dark {
+    display: none;
+}
+
+.balloon {
+    display: none;
+    z-index: 5;
+}
+
+.balloon_1 {
+    animation: balloon 300s ease-in 10s infinite normal;
+    top: 1000;
+    left: 15;
+    width: 90%;
+}
+
+.balloon_2 {
+    animation: balloon 290s ease-in 13s infinite normal;
+    top: 1000;
+    left: 15;
+    width: 90%;
+}
+
+.balloon_3 {
+    animation: balloon 300s ease-in 15s infinite normal;
+    top: 1000;
+    left: 15;
+    width: 90%;
+}
+
+.moon {
+    display: none;
+    animation: moon 1800s linear -600s infinite normal;
+    width: 250px;
+    z-index: 4;
+}
+
+.star {
+    display: none;
+}
+
+.star_a {
+    animation: star_flash 12s linear -5s infinite normal;
+    left: 25;
+    z-index: 2;
+}
+
+.star_b {
+    animation: star_flash 12s linear -12s infinite normal;
+    z-index: 1;
+}
+
+.star_a_2 {
+    animation: star_flash 8s linear -12s infinite normal;
+    left: 5;
+    top: 40;
+    z-index: 2;
+}
+
+.star_b_2 {
+    animation: star_flash 8s linear 0s infinite normal;
+    left: 30;
+    top: 30;
+    z-index: 1;
+}
+
+.star_base {
+    left: 25;
+    z-index: 0;
+}
+
+.shooting_star {
+    animation: shooting_star 450s ease-in -30s infinite normal;
+}
+
+.cloud {
+    display: none;
+    width: 1500px;
+}
+
+.cloud_l {
+    top: 130;
+    z-index: 5;
+}
+
+.cloud_m {
+    top: 360;
+    z-index: 5;
+}
+
+.cloud_s {
+    top: 190;
+    z-index: 5;
+}
+
+.cloud_l_1 {
+    animation: cloud_loop 120s ease -120s infinite normal;
+}
+
+.cloud_s_1 {
+    animation: cloud_loop 120s ease -115s infinite normal;
+}
+
+.cloud_m_1 {
+    animation: cloud_loop 120s ease -110s infinite normal;
+}
+
+.cloud_s_2 {
+    animation: cloud_loop 120s ease -105s infinite normal;
+}
+
+.cloud_l_2 {
+    animation: cloud_loop 120s ease -100s infinite normal;
+}
+
+.cloud_s_3 {
+    animation: cloud_loop 120s ease -95s infinite normal;
+}
+
+.cloud_m_2 {
+    animation: cloud_loop 120s ease -90s infinite normal;
+}
+
+.cloud_s_4 {
+    animation: cloud_loop 120s ease -85s infinite normal;
+}
+
+.cloud_l_3 {
+    animation: cloud_loop 120s ease -80s infinite normal;
+}
+
+.cloud_s_5 {
+    animation: cloud_loop 120s ease -75s infinite normal;
+}
+
+.cloud_m_3 {
+    animation: cloud_loop 120s ease -70s infinite normal;
+}
+
+.cloud_s_6 {
+    animation: cloud_loop 120s ease -65s infinite normal;
+}
+
+.cloud_l_4 {
+    animation: cloud_loop 120s ease -60s infinite normal;
+}
+
+.cloud_s_7 {
+    animation: cloud_loop 120s ease -55s infinite normal;
+}
+
+.cloud_m_4 {
+    animation: cloud_loop 120s ease -50s infinite normal;
+}
+
+.cloud_s_8 {
+    animation: cloud_loop 120s ease -45s infinite normal;
+}
+
+.cloud_l_5 {
+    animation: cloud_loop 120s ease -40s infinite normal;
+}
+
+.cloud_s_9 {
+    animation: cloud_loop 120s ease -30s infinite normal;
+}
+
+.cloud_m_5 {
+    animation: cloud_loop 120s ease -25s infinite normal;
+}
+
+.cloud_s_10 {
+    animation: cloud_loop 120s ease -20s infinite normal;
+}
+
+@keyframes cloud_loop {
+
+    0% {
+        left: 1600;
+    }
+
+    100% {
+        left: -1600;
+    }
+}
+
+@keyframes star_flash {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+@keyframes sky {
+
+    0% {
+        background-position-y: -100%;
+    }
+
+    100% {
+        background-position: 100%;
+    }
+}
+
+@keyframes moon {
+
+    0% {
+        top: 300;
+        left: 1600;
+    }
+
+    50% {
+        top: 100;
+        left: 600;
+    }
+
+    100% {
+        top: 300;
+        left: -100;
+    }
+}
+
+@keyframes balloon {
+
+    0% {
+        top: 1000;
+        left: 25;
+        opacity: 1;
+    }
+
+    5% {
+        top: -900;
+        left: 50;
+        opacity: 0.4;
+    }
+
+    100% {
+        top: -2200;
+        left: 50;
+    }
+}
+
+@keyframes shooting_star {
+
+    0% {
+        top: -500;
+        left: 1600;
+        opacity: 0;
+    }
+
+    3% {
+        top: 900;
+        left: -600;
+        opacity: 1;
+    }
+
+    100% {
+        top: 1000;
+        left: -1600;
+    }
+}
