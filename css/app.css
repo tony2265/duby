@@ -2525,16 +2525,16 @@ main >.inner {
   color: #00aff0;
 }
 .social .item.facebook::before {
-  background-color: aceboo;
+  background-color: #3b5998;
 }
 .social .item.facebook i {
-  color: aceboo;
+  color: #3b5998;
 }
 .social .item.youtube::before {
-  background-color: outub;
+  background-color: #FF0000;
 }
 .social .item.youtube i {
-  color: outub;
+  color: #FF0000;
 }
 .social .item:focus i,
 .social .item:hover i {
